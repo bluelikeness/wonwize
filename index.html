@@ -7,9 +7,15 @@
     <title>원와이즈 - 일일 환율</title>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#4f46e5">
+    
+    <!-- 모바일 웹 앱 설정 (표준 & iOS) -->
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="원와이즈">
+    
+    <!-- 아이콘 설정 (Favicon 404 해결) -->
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2454/2454282.png">
     <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/2454/2454282.png">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -49,5 +55,7 @@
 </head>
 <body>
     <div id="root"></div>
+    <!-- Vite/Vercel 환경에서 진입점을 명확히 지정 -->
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
