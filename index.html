@@ -34,19 +34,6 @@
             .nav-bottom { padding-bottom: env(safe-area-inset-bottom); }
         }
     </style>
-    <script>
-        // PWA를 위한 서비스 워커 등록
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                const swCode = `
-                    self.addEventListener('install', (e) => self.skipWaiting());
-                    self.addEventListener('fetch', (e) => e.respondWith(fetch(e.request)));
-                `;
-                const blob = new Blob([swCode], { type: 'text/javascript' });
-                navigator.serviceWorker.register(URL.createObjectURL(blob));
-            });
-        }
-    </script>
 <script type="importmap">
 {
   "imports": {
