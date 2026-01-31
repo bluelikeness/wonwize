@@ -1,0 +1,24 @@
+
+{
+  "short_name": "원와이즈",
+  "name": "원와이즈: 일일 환율 추적기",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2454/2454282.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2454/2454282.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4f46e5",
+  "background_color": "#f8fafc",
+  "description": "매일의 원/달러, 원/엔 환율을 AI가 분석하고 계산해주는 개인 환율 비서입니다."
+}

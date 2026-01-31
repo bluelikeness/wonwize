@@ -1,0 +1,7 @@
+{
+  "name": "WonWise: Daily FX Tracker",
+  "description": "A premium currency exchange rate tracker for KRW, USD, and JPY with AI-powered market insights and real-time data visualization.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
